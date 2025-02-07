@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Website Loucas</title>
+  </head>
+  <body>
+    <div class="circle" id="circle"></div>
+    <script src="script.js"></script>
+    <header class="top-bar">
+      <nav>
+        <a href="#accueil">ACCUEIL</a>
+        <a href="#à-propos">À PROPOS</a>
+        <a href="#projet">PROJET</a>
+        <a href="#compétences">COMPÉTENCES</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <div class="main-all" id="accueil">
+        <div class="header-with-image">
+          <div class="top-text-header">
+            <h1 class="main-title">
+              Je suis Loucas, étudiant en BUT Informatique.
+            </h1>
+          </div>
+          <div class="image-with-header-text">
+            <img
+              class="main-img"
+              src="./images/image-jeugolang.png"
+              alt="Image jeu en Golang"
+            />
+
+            <div class="header-text">
+              <h2>À propos de moi</h2>
+              <p class="home-txt">
+                Je m'appelle Loucas, j'ai 18 ans et je suis actuellement
+                étudiant en BUT Informatique première année.
+              </p>
+              <button
+                class="read-more-btn"
+                onclick="window.location.href='#à-propos';"
+              >
+                <strong>Lire plus</strong>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 12H19M19 12L12 5M19 12L12 19"
+                    stroke="#F3F3F3"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <svg
+                class="line"
+                width="403"
+                height="2"
+                viewBox="0 0 403 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="403"
+                  height="2"
+                  fill="#D9D9D9"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              <h2>Mes projets</h2>
+              <p class="home-txt">
+                J’ai développé mon propre site web, un projet qui m’a permis de
+                découvrir le JavaScript, le HTML et le CSS.
+              </p>
+              <button
+                class="read-more-btn"
+                onclick="window.location.href='#à-propos';"
+              >
+                <strong>Lire plus</strong>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 12H19M19 12L12 5M19 12L12 19"
+                    stroke="#F3F3F3"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <svg
+                width="403"
+                height="2"
+                viewBox="0 0 403 2"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="line"
+              >
+                <rect
+                  width="403"
+                  height="2"
+                  fill="#D9D9D9"
+                  fill-opacity="0.4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-me" id="à-propos">
+        <svg
+          width="260"
+          height="10"
+          viewBox="0 0 260 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="title-line"
+        >
+          <rect width="260" height="10" fill="#D9D9D9" />
+        </svg>
+        <h1 class="main-title">À propos de moi</h1>
+        <p>
+          Je m'appelle Loucas, j'ai 18 ans et je suis actuellement étudiant en
+          BUT Informatique première année. Depuis petit, j'étais le genre
+          d'enfant qui préférait démonter un ordinateur pour comprendre comment
+          il fonctionne plutôt que de simplement jouer dessus. Construire des
+          ordinateurs a toujours été un plaisir pour moi, mais avec le temps, ce
+          sont surtout les petits projets que je développe pour moi-même qui
+          m’ont vraiment intéressé.
+        </p>
+        <p>
+          Aujourd’hui, je suis à la recherche d’une alternance pour entrer dans
+          le monde du travail et faire quelque chose de concret, avec un vrai
+          objectif. Je veux mettre mes compétences en pratique et contribuer à
+          des projets. Avec un vrai désir de progresser, notamment dans le
+          domaine du développement.
+        </p>
+      </div>
+      <div class="cv-container">
+        <a
+          href="./Documents/CV_2025-02-07_Loucas_Lebeaupin.pdf"
+          download="CV_Loucas.pdf"
+          target="_blank"
+          class="button"
+          >Télécharger mon CV</a
+        >
+      </div>
+      <div class="my-project" id="projet">
+        <svg
+          width="260"
+          height="10"
+          viewBox="0 0 260 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="title-line"
+        >
+          <rect width="260" height="10" fill="#D9D9D9" />
+        </svg>
+        <h1 class="main-title">Mes projets</h1>
+        <p>
+          J’ai développé mon propre site web, un petit projet qui m’a permis de
+          travailler sur la création, le développement et la mise en ligne d’un
+          site. Mon site est hébergé sur Netlify, qui est relié à mon dépôt Git
+          pour faciliter les mises à jour à chaque modification du code.
+          J’utilise Namecheap pour gérer mon nom de domaine, ce qui me permet de
+          configurer les DNS et d’associer mon site à une adresse personnalisée.
+        </p>
+        <p>
+          En équipe de deux, j’ai aussi participé à un projet scolaire où nous
+          avons codé un
+
+          <a href="https://github.com/Loucaslbp/Golang-Jeu" target="_blank"
+            ><strong>jeu en Golang.</strong></a
+          >
+          Ce projet m’a permis de découvrir le langage et de travailler en
+          collaboration. Le jeu est d’ailleurs disponible sur mon GitHub.
+        </p>
+        <p>
+          Tous les projets que je réalise seront ajoutés à mon site web pour les
+          rendre accessibles et montrer mon évolution.
+        </p>
+        <div class="cv-container">
+          <a href="https://github.com/Loucaslbp" target="_blank" class="button">
+            GitHub <img src="./images/git2.png" alt="git" class="button-git" />
+          </a>
+        </div>
+      </div>
+      <div class="comp-tech" id="compétences">
+        <svg
+          width="260"
+          height="10"
+          viewBox="0 0 260 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="title-line"
+        >
+          <rect width="260" height="10" fill="#D9D9D9" />
+        </svg>
+        <h1 class="main-title">Mes compétences techniques</h1>
+        <p>
+          Dans le cadre de ma première année en BUT Informatique, j’ai pu
+          apprendre plusieurs types de langages de programmation. J’ai acquis
+          des bases en technologies web, que j’ai utilisées pour créer mon site.
+          J’ai également découvert Kotlin, Python et SQL, que j’ai appliqués
+          dans différents exercices et projets scolaires.
+        </p>
+        <p>
+          J’ai eu l’occasion de m’initier à Golang à travers un projet scolaire
+          où j’ai travaillé en équipe pour coder un jeu. De plus, j’ai déjà
+          configuré un serveur à partir d’un ancien ordinateur et suivi des
+          installations de différents systèmes d'exploitation tels que Fedora,
+          Ubuntu, Debian 12, et Windows.
+        </p>
+        <p>
+          Ces expériences me permettent de poser les bases de mes compétences
+          techniques et de continuer à progresser.
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="social-links" id="contact">
+        <a
+          href="https://www.linkedin.com/in/loucas-lebeaupin-b18a18334/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./images/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://www.instagram.com/loucasllbp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./images/insta.png" alt="Instagram" />
+        </a>
+        <a
+          href="https://github.com/Loucaslbp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./images/git.png" alt="GitHub" />
+        </a>
+        <a href="mailto:loucaslbp@protonmail.com">
+          <img src="./images/mail.png" alt="Mail" />
+        </a>
+      </div>
+      <p class="copyright">
+        &copy; 2025 Loucas Lebeaupin. Tous droits réservés.
+      </p>
+    </footer>
+  </body>
+</html>
